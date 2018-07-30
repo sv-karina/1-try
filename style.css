@@ -1,0 +1,237 @@
+@font-face{
+  src: url("./fonts/AvenirNextCyr-Light.ttf");
+  font-family: AvenirNext;
+  font-weight: 100;
+}
+
+@font-face{
+	src: url("./fonts/AvenirNextCyr-Regular.tff");
+	font-family: AvenirNext;
+	font-weight: 400;
+}
+
+@font-face{
+	src: url("./OpenSans-Light.ttf");
+	font-family: OpenSans;
+	font-weight: 100;
+}
+
+@font-face{
+	src: url("./fonts/OpenSans-Regular.ttf");
+	font-family: OpenSans;
+	font-weight: 300;
+}
+
+
+@font-face{
+	src: url("./fonts/OpenSans-Bold.ttf");
+	font-family: OpenSans;
+	font-weight: 700;
+}
+
+@font-face{
+	src: url("./fonts/ProximaNova-Reg.ttf");
+	font-family: ProximaNova;
+	font-weight: 300;
+}
+
+
+.menu-link{
+	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-family: AvenirNext, sans-serif;
+	font-weight: 400;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0 0 40px;
+}
+
+.menu{
+	font:;
+	display: flex;
+	width: 400px;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0px 40px 0 0;
+
+}
+
+.background-image{
+	background-image: url("./images/background.jpg");
+	height: 800px;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+
+.title{
+	color: white;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: AvenirNext, sans-serif;
+	font-weight: 100;
+	margin: 500px 0 0 40px;
+}
+
+.subtitle{
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: OpenSans, sans-serif;
+	font-weight: 700;
+	margin: 10px 0 0 40px;
+}
+
+.benefits{
+	background: #a2ca28;
+    margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 30px 30px 30px 30px;
+}
+
+.benefits_item{
+	padding: 0 30px 0 0;
+}
+.benefits_image{
+	height: 60px;
+
+}
+.benefits_title{
+	font-size: 24px;
+	color: white;
+	text-align: left;
+	font-family: OpenSans, sans-serif;
+	font-weight: 100;
+
+}
+.benefits_text_1{
+	font-size: 14px;
+	color: white;
+	text-align: left;
+	font-family: ProximaNova, sans-serif;
+	font-weight: 300;
+}
+
+.benefits_text_2{
+	font-size: 14px;
+	color: white;
+	text-align: left;
+	font-family: ProximaNova, sans-serif;
+	font-weight: 300;
+}
+
+.benefits_text_3{
+	font-size: 14px;
+	color: white;
+	text-align: left;
+	font-family: ProximaNova, sans-serif;
+	font-weight: 300;
+}
+
+.benefits_text_4{
+	font-size: 14px;
+	color: white;
+	text-align: left;
+	font-family: ProximaNova, sans-serif;
+	font-weight: 300;
+}
+
+.container{
+    display: flex;
+}
+
+.header_2{
+	font-size: 35px;
+	text-transform: uppercase; 
+	color: #a2ca28;
+	font-family: OpenSans;
+	font-weight: 300;
+}
+
+.header_3{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fd634e;
+	font-family: OpenSans;
+	font-weight: 300;
+}
+
+.blocks{
+	font-size: 14px;
+	background: white;
+	text-align: center;
+	padding: 40px 80px 80px 80px;
+	font-family: OpenSans;
+	font-weight: 300;
+}
+
+.image-hover{
+	position: relative;
+	width: 794px;
+	height: 394px;
+}
+
+.image-hover:before{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	z-index: 1;
+}
+
+.text-hover{
+	position: absolute;
+	color: white;
+	text-align: center;
+	top: 150px;
+	left: 280px;
+	z-index: 2;
+}
+
+.footer{
+	background: #0d1119;
+	padding: 40px 40px 40px 40px;
+}
+.input{
+	background: white;
+	color: #83969f;
+	font-size: 14px;
+	padding: 10px 20px 10px 20px;
+}
+
+.button{
+	background: #a2ca28;
+	color: white;
+	font-size: 15px;
+	padding: 10px 20px 10px 20px;
+}
+
+.social-network{
+	background: #0d1119;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 200px;
+	padding: 50px 20px 10px 440px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
