@@ -119,14 +119,16 @@
 
 .container{
 	display: flex;
-
+	background: #a2ca28;
+	width: 1000px;
+	margin: auto 0;
+	padding: 0 100px 0 140px;
 }
-
 
 .block{
 	background: white;
 	text-align: center;
-	padding: 100px 100px 0 120px;
+	padding: 50px 50px 50px 50px;
 }
 
 .header_2{
@@ -185,8 +187,10 @@
 }
 
 .footer{
+	display: flex;
 	background: #0d1119;
-	padding: 40px;
+	margin: auto 0;
+	padding: 40px 40px 40px 100px;
 }
 .input{
 	background: white;
@@ -207,19 +211,6 @@
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-	width: 200px;
-	padding: 50px 20px 10px 440px;
+	width: 100px;
+	padding: 0 0 0 500px;
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
