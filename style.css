@@ -1,4 +1,25 @@
+
+@font-face{
+	src: ("./fonts/AvenirNextCyr-Thin.ttf");
+	font-family: AvenirNext;
+	font-weight: 100;
+}
+
+@font-face{
+	src: url("./fonts/AvenirNextCyr-Regular.ttf");
+	font-family: AvenirNext;
+	font-weight: 300;
+}
+
+@font-face{
+	src: url("./fonts/ProximaNova-Reg.ttf");
+	font-family: ProximaNova;
+	font-weight: 300;
+}
+
 .menu-link{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100; 
 	color: white;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -7,23 +28,25 @@
 .header{
 	display: flex;
 	justify-content: space-between;
-	padding: 40px 0 0 40px;
+	padding: 42px 0 0 54px;
 }
 
 .menu{
 	display: flex;
-	width: 400px;
+	width: 504px;
 	justify-content: space-between;
 	list-style: none;
-	margin: 0px 40px 0 0;
+	padding: 21px 71px 0 0;
 
 }
 
 .background-image{
 	background-image: url("./images/background.jpg");
-	height: 800px;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
+	height: 893px;
+	width: 1604px;
+	margin: -3px;
 
 }
 
@@ -31,81 +54,263 @@
 	color: white;
 	text-transform: uppercase;
 	font-size: 40px;
-	margin: 500px 0 0 40px;
+	font-family: AvenirNext;
+	font-weight: 100;
+	margin: 598px 0 0 116px;
 }
 
 .subtitle{
 	color: white;
 	text-transform: uppercase;
 	font-size: 15px;
-	margin: 10px 0 0 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin: 7px 0 0 281px;
+	letter-spacing: 3px;
 }
 
 .benefits{
 	background: #a2ca28;
+	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-	padding: 30px 30px 30px 30px;
+	padding: 116px 225px 113px 212px;
+	width: 1164px;
+}
+
+.benefits_block{
+	margin: 0 auto;
+}
+
+.benefits_image{
+	height: 60px;
 }
 
 .benefits_title{
 	font-size: 24px;
 	color: white;
 	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
 
 }
-.benefits_text_1{
+.benefits_text{
 	font-size: 14px;
 	color: white;
 	text-align: left;
-	padding: 50px 0 50px 50px;
+	font-family: ProximaNova, sans-serif;
+	font-weight: 300;
+	color: white;
+	line-height: 2;
+	padding: 6px 18px 0px 2px;
 }
 
-.benefits_text_2{
+.benefits_link{
+	font-family: ProximaNova, sans-serif;
+	font-weight: 300;
 	font-size: 14px;
 	color: white;
-	text-align: left;
-	padding: 50px 0 50px 0;
+	text-decoration: none;
+	padding: 10px 0 0 0;
 }
 
-.benefits_text_3{
-	font-size: 14px;
-	color: white;
-	text-align: left;
-	padding: 60px 50px 50px 50px;
+.benefits_link:hover{
+	animation: myAnimation 3s;
 }
 
-.benefits_text_4{
-	font-size: 14px;
-	color: white;
-	text-align: left;
-	padding: 50px 50px 50px 0;
+@keyframes myAnimation{
+  0%{
+    color: #89a928;
+  }
+  50%{
+    color: #e5e746;
+  }
+  100%{
+    color: #4c5c1d;
+  }
 }
 
 .container{
-	
-    display: flex;
+	display: flex;
+	background: #a2ca28;
+	width: 1180px;
+    margin: auto 0;
+    padding: 0 214px 0 207px;
+
+}
+
+.block{
+	background: white;
+    text-align: center;
+    padding: 54px 21px 0 37px;
+    width: 338px;
 }
 
 .header_2{
 	font-size: 35px;
-	text-transform: uppercase; 
-	color: #a2ca28;
+    text-transform: uppercase;
+    color: #a2ca28;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding: 6px 0 0 0;
 }
 
 .header_3{
 	font-size: 14px;
-	text-transform: uppercase;
-	color: #fd634e;
+    text-transform: uppercase;
+    color: #fd634e;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.9px;
 }
 
-.blocks{
+.text{
 	font-size: 14px;
-	background: white;
-	text-align: center;
-	padding: 40px 80px 80px 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #656e74;
+    padding: 14px 20px 10px 10px;
+    width: 300px;
+    line-height: 26.9px;
 }
+
+.link{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px; 
+	color: #a2ca28;
+	font-weight: 300;
+}
+
+.image-hover{
+	position: relative;
+	width: 794px;
+	height: 394px;
+}
+
+.image-hover:before{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	z-index: 1;
+}
+
+.text-hover{
+	position: absolute;
+	color: white;
+	text-align: center;
+	top: 39%;
+    margin-left: 35%;
+	z-index: 2;
+	opacity: 0;
+}
+
+.text-hover:hover{
+	opacity: 1;
+}
+
+.footer{
+	display: flex;
+	background: #0d1119;
+	padding: 68px 40px 40px 269px;
+}
+.input{
+	background: white;
+	color: #83969f;
+	font-size: 14px;
+	padding: 13px 21px 11px 17px;
+    border: solid white;
+}
+    
+
+.button{
+	background: #a2ca28;
+	color: white;
+	font-size: 15px;
+	padding: 14px 20px 12px 6px;
+	width: 183px;
+	border: solid #a2ca28;
+
+}
+
+.social-network{
+	background: #0d1119;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 100px;
+} 
+
+.icon{
+	width: 50px;
+	height: 50px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	text-align: center;
+	margin: 0 10px;
+}
+.icon:before{
+	content'';
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.icon-fb{
+	background: #2e3192;
+}
+
+.icon-fb:before{
+	background: url("./images/fb.png");
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+	margin: -10px 0 0 -10px;
+}
+
+.icon-tw{
+	background: #00aeef;
+}
+
+.icon-tw:before{
+	background: url("./images/tw.png");
+	background-size: 24px 24px;
+	width: 30px;
+	height: 30px;
+}
+
+.icon-yt{
+	background: #ed3123;
+}
+
+.icon-yt:before{
+	background: url("./images/yt.png");
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-ln{
+	background: #171a8f;
+}
+
+.icon-ln:before{
+	background: url("./images/ln.png");
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+}
+
+
+
+
+
+
 
 
 
